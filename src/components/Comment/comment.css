@@ -1,0 +1,46 @@
+
+.child-comments{
+    margin-left: 200px;
+    margin-top: 50px;
+
+}
+.comments {
+    display: flex;
+    flex-direction: column;
+    /* padding: 50px; */
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+}
+.enter-comment{
+    outline: none;
+    width: 150px;
+    height: 30px;
+    /* align-self: center; */
+}
+.reply{
+    cursor: pointer;
+    user-select: none;
+    
+}
+.show{
+    cursor: pointer;
+    user-select: none;
+    margin-left: 20px;
+}
+.edit{
+    cursor: pointer;
+    user-select: none;
+    margin-left: 20px;
+}
+.actions{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.post{
+    border: 1px solid lightblue;
+    padding: 3px;
+    cursor: pointer;
+}
